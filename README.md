@@ -15,5 +15,11 @@ If you find this paper useful, please cite this paper:
 ```
 
 ## Setting up
-To be added ...
+1. To set up the environment, please install the packages in the `requirements.txt`.
+```bash
+pip install -r requirements.txt
+```
+
+2. You can first download the raw data to `Data` directory and run scripts in `DataProcessing` to get processed data for experiments.
+3. For inductive datasets, please refer to Project [QE-TEMP](https://github.com/zhiweihu1103/QE-TEMP) to download the dataset [](https://drive.google.com/drive/folders/1nrtn6ZhT2YZAW_313CRUJXCcG4kyRptv?usp=share_link) and dataset [](https://drive.google.com/drive/folders/1RDq1r5I29kmlGGyfukTgWEGe01OdZH4z?usp=share_link).
 
