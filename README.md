@@ -20,6 +20,12 @@ If you find this paper useful, please cite this paper:
 pip install -r requirements.txt
 ```
 
-2. You can first download the raw data to `Data` directory and run scripts in `DataProcessing` to get processed data for experiments.
-3. For inductive datasets, please refer to Project [QE-TEMP](https://github.com/zhiweihu1103/QE-TEMP) to download the dataset [](https://drive.google.com/drive/folders/1nrtn6ZhT2YZAW_313CRUJXCcG4kyRptv?usp=share_link) and dataset [](https://drive.google.com/drive/folders/1RDq1r5I29kmlGGyfukTgWEGe01OdZH4z?usp=share_link).
+2. You can first download the raw data to `Data` directory and run scripts in `DataProcessing` to get data for experiments.
+ * For inductive datasets, please refer to Project [QE-TEMP](https://github.com/zhiweihu1103/QE-TEMP) to download the dataset [Ind-FB15k-237-V2](https://drive.google.com/drive/folders/1nrtn6ZhT2YZAW_313CRUJXCcG4kyRptv?usp=share_link) and dataset [Ind-NELL-V3](https://drive.google.com/drive/folders/1RDq1r5I29kmlGGyfukTgWEGe01OdZH4z?usp=share_link). Then 
+ * For transductive datasets, please refer to Project [KGReasoning](https://github.com/snap-stanford/KGReasoning) to download the dataset FB15k, FB15k-237 and NELL995.
 
+```bash
+cd DataProcessing
+python extract_logical_expressions_v2.py
+python construct_negative_samples_v2.py
+```
